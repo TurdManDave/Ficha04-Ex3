@@ -9,5 +9,25 @@
     <header>
         <h1>Create a post</h1>
     </header>
+    <div>
+        <form action="create_post.html">
+            <div>
+                <label for="titulo">Title:</label>
+                <input type="text" name="titulo" id="titulo" required>
+            </div>
+            <br>
+            <div>
+                <label for="conteúdo">Post:</label><br>
+                <textarea name="conteúdo" id="conteúdo" cols="40" rows="8"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="video">Select video:</label>
+                <input type="file" id="video" name="video" accept="video/*">
+            </div>
+            <br>
+            <input type="submit">
+        </form>
+    </div>
 </body>
 </html>
